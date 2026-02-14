@@ -5,7 +5,6 @@ function play(){
         return;
     }
 
-    document.getElementById("game").innerHTML =
-    `<iframe src="https://eaglercraft.com/mc/1.8/" 
-    width="100%" height="600" style="border:none;"></iframe>`;
+    // open browser Minecraft in new tab
+    window.open("https://eaglercraft.com/mc/1.8/", "_blank");
 }
