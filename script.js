@@ -5,6 +5,6 @@ function play(){
         return;
     }
 
-    // open browser Minecraft in new tab
-    window.open("https://eaglercraft.com/mc/1.8/", "_blank");
+    // go to YOUR client page
+    window.location.href = "client/index.html?user=" + encodeURIComponent(name);
 }
